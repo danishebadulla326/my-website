@@ -1,11 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(images/background.jpg) no repeat;
+    background: url(images/background.jpg) no-repeat;
     background-size: cover;
 }
 
-.box{
+.main-box{
     width: 450px;
     background: rgba(0,0,0,0.4);
     padding: 40px;
@@ -15,3 +15,48 @@ body{
     color: white;
     font-family: 'Century Gothic', sans-serif;
 }
+
+.box-image{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+.main-box h1{
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
+.main-box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.main-box p{
+    text-align: justify;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.main-box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.main-box li a{
+    color: white;
+    text-decoration: none;
+    font-size:60px;
+}
+
+.main-box li a:hover{
+    color: #b9b9b9;
+}
+
