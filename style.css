@@ -59,4 +59,25 @@ ul{
 .main-box li a:hover{
     color: #b9b9b9;
 }
+.table{
+    width: 600px;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
 
+.education-table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 1em;
+    min-width: 400px;
+    align-self: center;
+}
+
+.education-table th, td{
+    padding: 15px;
+}
